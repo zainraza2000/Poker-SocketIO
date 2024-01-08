@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "ts-node src/client.ts",
+    "build": "tsc",
+    "dev": "npm run build && node dist/client.js"
+  },
+  "dependencies": {
+    "socket.io-client": "^4.7.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
